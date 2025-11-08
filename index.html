@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>موقع محمد | تجربة مبهره</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap">
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- نافبار -->
+  <nav class="navbar navbar-dark navbar-expand-lg sticky-top glass">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">محمد</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#hero">الرئيسية</a></li>
+          <li class="nav-item"><a class="nav-link" href="#features">مميزات</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">تواصل</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- هيرو -->
+  <header id="hero" class="hero d-flex align-items-center">
+    <div class="container text-center">
+      <h1 class="display-5 fw-bold mb-3 fade-in">موقع أنيق يلفت الانتباه</h1>
+      <p class="lead mb-4 fade-in delay-1">
+        صفحة واحدة بتصميم عصري، سريعة وخفيفة—جاهزة للعرض فورًا.
+      </p>
+      <button class="btn btn-cta btn-lg shadow" onclick="primaryAction()">جرب الآن</button>
+    </div>
+  </header>
+
+  <!-- مميزات -->
+  <section id="features" class="py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card feature-card h-100 text-center p-3">
+            <div class="feature-icon mb-3">⚡</div>
+            <h5 class="fw-bold mb-2">سرعة</h5>
+            <p>الكود نظيف وخفيف، يفتح فورًا على الموبايل والكمبيوتر.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card feature-card h-100 text-center p-3">
+            <div class="feature-icon mb-3">🎨</div>
+            <h5 class="fw-bold mb-2">تصميم أنيق</h5>
+            <p>خلفية متدرجة، زجاجية، وخط “Cairo” لعرض احترافي.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card feature-card h-100 text-center p-3">
+            <div class="feature-icon mb-3">🔒</div>
+            <h5 class="fw-bold mb-2">جاهز للنشر</h5>
+            <p>ملفات بسيطة—انسخ وانشر على أي خدمة استضافة.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- تواصل -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <div class="card contact-card p-4">
+        <h4 class="fw-bold mb-3">تواصل معي</h4>
+        <form onsubmit="return submitForm(event)">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <input class="form-control" type="text" placeholder="الاسم" required>
+            </div>
+            <div class="col-md-6">
+              <input class="form-control" type="email" placeholder="الإيميل" required>
+            </div>
+            <div class="col-12">
+              <textarea class="form-control" rows="4" placeholder="رسالتك" required></textarea>
+            </div>
+          </div>
+          <button class="btn btn-dark mt-3">إرسال</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- فوتر -->
+  <footer class="py-4 text-center text-white-50">
+    <div class="container small">© 2025 محمد — موقع مبهر بصفحة واحدة</div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Your JS -->
+   <button onclick="sayHello()">اضغط هنا</button>
+  <script src="script.js"></script>
+  <script src="script.js"></script>
+  <!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>موقعي الرئيسي</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- النافبار -->
+  <nav>
+    <ul>
+      <li><a href="index.html">🏠 الرئيسية</a></li>
+      <li><a href="links.html">🔗 روابطي</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>أهلاً بك في موقعي 🚀</h1>
+    <p>دي الصفحة الرئيسية، اضغط على "روابطي" عشان تروح لصفحة التواصل.</p>
+  </header>
+</body>
+</html>
+</body>
+</html>
